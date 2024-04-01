@@ -1,7 +1,8 @@
 ////////////////////////////////////////////////////
 
-This file contains MAGMA code that shows quasismoothness of each orbifold P2 x P2 CY 3-fold. The candidate 2 captures the main features of the code. So for other candidates we only list the
-polynomial ring and matrix entries that gives quasismoothness of the candidate.  
+This file contains MAGMA code that shows quasismoothness of each orbifold P2 x P2 CY 3-fold appearing in https://arxiv.org/abs/2312.17341. 
+The candidate 2 captures the main features of the code. Thus for other candidates, we only list the polynomial ring and matrix entries that
+give quasismoothness of the candidate.  
 /////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////
 /////////////////// Candidate 2//////////////////////////////////
