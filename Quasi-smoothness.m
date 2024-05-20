@@ -25,19 +25,20 @@ P<x1,x2,x3,x4,x5,x6,x7,y>:=ProjectiveSpace(Rationals(),[1,1,1,1,1,1,1,3]);
       x2*x7+x5^2,x5*x7+x6^2+x1*x2+x3*x4+x1*x5, y]);
 
 /////////////// Candidate 7 //////////////////////////
-P<x1,x2,x3,x4,x5,y1,y2,z>:=ProjectiveSpace(Rationals(),[1,1,1,1,1,2,2,3]);
-M:=Matrix(CoordinateRing(P), 3, 3, [
-x1,x2,y2+y1+x4^2,
-y1,y2,z,
-x5^2+x4*x4+x1*x2+x3*x2+x1*x3+y2,x3^2+x2*x4+x1*x5,z+x1^3+x2^3+x3^3+x4^3+x5^3]);
 
-////////////////// Candidate 8///////////////////////
 P<x1,x2,x3,x4,x5,y1,y2,y3>:=ProjectiveSpace(Rationals(),[1,1,1,1,1,3,3,3]);
 M:=Matrix(CoordinateRing(P), 3, 3, [
 x1,x2,x3,
 y1,y2,y3,
 x1^2*x4+x2^2*x5+y2+y3,x1^3+x3^3+y3+x4^3,x2^3+x5^3+y1]);
 
+////////////////// Candidate 8///////////////////////
+
+P<x1,x2,x3,x4,x5,y1,y2,z>:=ProjectiveSpace(Rationals(),[1,1,1,1,1,2,2,3]);
+M:=Matrix(CoordinateRing(P), 3, 3, [
+x1,x2,y2+y1+x4^2,
+y1,y2,z,
+x5^2+x4*x4+x1*x2+x3*x2+x1*x3+y2,x3^2+x2*x4+x1*x5,z+x1^3+x2^3+x3^3+x4^3+x5^3]);
 /////////////////////// Candidate 9 //////////////
 P<x1,x2,x3,x4,x5,y1,y2,z>:=ProjectiveSpace(Rationals(),[1,1,1,1,1,2,2,5]);
 M:=Matrix(CoordinateRing(P), 3, 3, [
